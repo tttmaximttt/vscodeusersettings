@@ -1,2 +1,182 @@
 {
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "editor.fontSize": 13,
+    "editor.fontFamily": "Monaco",
+    "files.autoSave": "on",
+    "gitlens.historyExplorer.enabled": true,
+    "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    ".idea": true,
+    ".nyc_output": true,
+    "editor.renderWhitespace": "all",
+},
+"workbench.iconTheme": "eq-material-theme-icons",
+"workbench.colorTheme": "Monokai Pro",
+"materialTheme.fixIconsRunning": false,
+"editor.tokenColorCustomizations": {
+    "[Monokai Pro]": {
+        "keywords": "#CC7832",
+        "functions": "#fdf901e5",
+        "strings": "#6a8759",
+        "comments": "#10a348ce",
+        "variables": "#9876AA",
+        "textMateRules": [
+            {
+                "scope": "keyword.operator",
+                "settings": {
+                    "foreground": "#cfcfcf",
+                    "fontStyle": "bold"
+                }
+                
+            },
+            {
+                "scope": "entity.name.type.class.js",
+                "settings": {
+                    "foreground": "#ff00d4",
+                    "fontStyle": "italic bold"
+                }
+                
+            },
+            {
+                "scope": "variable.language.this",
+                "settings": {
+                    "foreground": "#ffa600",
+                    "fontStyle": "bold"
+                }    
+            },
+            {
+                "scope": "storage.type.class.jsdoc",
+                "settings": {
+                    "foreground": "#10a348ce",
+                    "fontStyle": "bold"
+                }    
+            },
+            {
+                "scope": "variable.other.property.js",
+                "settings": {
+                    "foreground": "#9876AA",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "variable.other.readwrite.js",
+                "settings": {
+                    "foreground": "#A9B7C6",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "variable.other.object.js",
+                "settings": {
+                    "foreground": "#A9B7C6",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "meta.object-literal.key.js",
+                "settings": {
+                    "foreground": "#A9B7C6",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "punctuation.separator.comma.js",
+                "settings": {
+                    "foreground": "#cfd7df",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "punctuation.definition.string.begin.js",
+                "settings": {
+                    "foreground": "#6a8759",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "punctuation.definition.string.end.js",
+                "settings": {
+                    "foreground": "#6a8759",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "punctuation.definition.string.template.begin.js",
+                "settings": {
+                    "foreground": "#6a8759",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "punctuation.definition.string.template.begin.js",
+                "settings": {
+                    "foreground": "#6a8759",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "punctuation.definition.template-expression.begin.js",
+                "settings": {
+                    "foreground": "#bbb806",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "punctuation.definition.template-expression.end.js",
+                "settings": {
+                    "foreground": "#bbb806",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "punctuation.definition.string.template.end.js",
+                "settings": {
+                    "foreground": "#6a8759",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "punctuation.definition.binding-pattern.object.js",
+                "settings": {
+                    "foreground": "#cfd7df",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "punctuation.definition.block.js",
+                "settings": {
+                    "foreground": "#cfd7df",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "punctuation.definition.parameters.begin.js",
+                "settings": {
+                    "foreground": "#f10da5",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "punctuation.definition.parameters.end.js",
+                "settings": {
+                    "foreground": "#f10da5",
+                    "fontStyle": "bold",
+                }
+            },
+            {
+                "scope": "meta.brace.round.js",
+                "settings": {
+                    "foreground": "#f10da5",
+                    "fontStyle": "bold",
+                }
+            },
+        ]
+    }
+}
 }
