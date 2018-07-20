@@ -65,6 +65,13 @@
                 }
             },
             {
+                "scope": "variable.other.object.property.js",
+                "settings": {
+                    "foreground": "#A9B7C6",
+                    "fontStyle": "bold"
+                }
+            },
+            {
                 "scope": "variable.other.readwrite.js",
                 "settings": {
                     "foreground": "#A9B7C6",
